@@ -38,7 +38,7 @@ export const Testimonials = () => {
             &quot;Alana has a reputation for truly providing hands on help with recruiting
               which is frankly the most valuable thing any investor could do. That&apos;s the
               reason we added her to the round and she's been living up to these
-              expectations!&quot
+              expectations!&quot;
             </blockquote>
             <div className="">
               <cite className="not-italic font-bold">— Benji Encz</cite>
@@ -99,7 +99,7 @@ export const Testimonials = () => {
             </div>
             <blockquote className="font-medium">
             &quot;Alana has been an incredibly helpful investor and friend to us; her ability
-              to be resourceful and persistent continues to be invaluable. We're extremely
+              to be resourceful and persistent continues to be invaluable. We&apos;re extremely
               lucky to have her as an investor and friend of Orb.&quot;
             </blockquote>
             <div className="">
