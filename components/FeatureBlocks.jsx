@@ -19,9 +19,8 @@ export const FeatureBlocks = () => {
             data-aos="zoom-y-out"
             className="font-bold leading-tight tracking-tighter text-4xl md:text-6xl text-gray-800 dark:text-gray-100"
           >
-            Make styling a{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-teal">
-              breeze
+              portfolio
             </span>
           </h2>
           <p
@@ -29,73 +28,152 @@ export const FeatureBlocks = () => {
             data-aos-delay="150"
             className="text-lg md:text-xl text-gray-600 dark:text-gray-400"
           >
-            Stop wasting your time. Vivid makes CSS easier than recursive
-            depth-first search.
+            select portfolio companies
           </p>
         </div>
         {/* Blocks */}
         <div className="grid items-start gap-6 lg:grid-cols-3">
           {/* Block 1 */}
           <div className="relative items-center flex-1 gap-1 p-6 border border-gray-300 rounded-lg shadow-xl dark:border-gray-600 bg-gray-100 dark:bg-gray-800 flex flex-col">
-            <ShuffleIcon />
+          <div className="flex justify-center">
+            <img
+              className="rounded-full"
+              src="icons/supabase.jpg"
+              alt="image"
+              width="50"
+              height="50"
+            />
+          </div>
             <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-              In-browser
+              <a
+                href="https://supabase.com"
+                className="text-blue-500 hover:text-blue-800"
+              >
+                supabase
+              </a>
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Edit your styling from the most natural place — where it renders
+              supabase is an open source firebase alternative. start your project with a
+              postgres database, authentication, instant APIs, edge functions, realtime
+              subscriptions, and storage.
             </p>
           </div>
           {/* Block 2 */}
           <div className="relative items-center flex-1 gap-1 p-6 border border-gray-300 rounded-lg shadow-xl dark:border-gray-600 bg-gray-100 dark:bg-gray-800 flex flex-col">
-            <SignalIcon />
+          <div className="flex justify-center">
+            <img
+              className="rounded-full"
+              src="icons/ashby.jpg"
+              alt="image"
+              width="50"
+              height="50"
+            />
+          </div>
             <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-              Code first
+              <a href="https://ashbyhq.com" className="text-blue-500 hover:text-blue-800">
+                ashby
+              </a>
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Use Vivid&apos;s command palette and code pane to edit styling
-              using code
+              ashby helps scaling companies achieve their ambitious growth targets. with
+              ashby, teams of all sizes can run a fast and efficient hiring process.
             </p>
           </div>
           {/* Block 3 */}
           <div className="relative items-center flex-1 gap-1 p-6 border border-gray-300 rounded-lg shadow-xl dark:border-gray-600 bg-gray-100 dark:bg-gray-800 flex flex-col">
-            <TalkingIcon />
+          <div className="flex justify-center">
+            <img
+              className="rounded-full"
+              src="icons/census.jpg"
+              alt="image"
+              width="50"
+              height="50"
+            />
+          </div>
             <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-              Modern frameworks
+              <a
+                href="https://getcensus.com"
+                className="text-blue-500 hover:text-blue-800"
+              >
+                census
+              </a>
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Build components using Vivid in React styled with Tailwind CSS
+              census delivers trusted data from the warehouse into all your operational
+              tools, so every team can act on it. supercharge your automation, workflows,
+              and personalization with operational analytics, no engineering favors or
+              custom scripts required.
             </p>
           </div>
           {/* Block 4 */}
           <div className="relative items-center flex-1 gap-1 p-6 border border-gray-300 rounded-lg shadow-xl dark:border-gray-600 bg-gray-100 dark:bg-gray-800 flex flex-col">
-            <DoorIcon />
+            <div className="flex justify-center">
+              <img
+                className="rounded-full"
+                src="icons/bigeye.jpg"
+                alt="image"
+                width="50"
+                height="50"
+              />
+            </div>
             <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-              Production-ready code
+              <a
+                href="https://bigeye.com"
+                className="text-blue-500 hover:text-blue-800"
+              >
+                bigeye
+              </a>
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Modify your styling in-browser and update your IDE with code that
-              looks like your own
+              bigeye is an industry-leading data observability platform that gives data
+              engineering and science teams the tools they need to ensure their data is
+              always fresh, accurate and reliable
             </p>
           </div>
           {/* Block 5 */}
           <div className="relative items-center flex-1 gap-1 p-6 border border-gray-300 rounded-lg shadow-xl dark:border-gray-600 bg-gray-100 dark:bg-gray-800 flex flex-col">
-            <CardsIcon />
+          <div className="flex justify-center">
+            <img
+              className="rounded-full"
+              src="icons/orb.png"
+              alt="image"
+              width="50"
+              height="50"
+            />
+          </div>
             <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-              Your workflow
+              <a href="https://withorb.com" className="text-blue-500 hover:text-blue-800">
+                orb
+              </a>
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Keep using your browser and IDE without needing an extra window
+              orb is developer-first billing infrastructure built to help companies
+              succeed with usage-based pricing.
             </p>
           </div>
           {/* Block 6 */}
           <div className="relative items-center flex-1 gap-1 p-6 border border-gray-300 rounded-lg shadow-xl dark:border-gray-600 bg-gray-100 dark:bg-gray-800 flex flex-col">
-            <MagicIcon />
+          <div className="flex justify-center">
+            <img
+              className="rounded-full"
+              src="icons/graphite.jpg"
+              alt="image"
+              width="50"
+              height="50"
+            />
+          </div>
             <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-              Smarter inspect element
+              <a
+                href="https://graphite.dev"
+                className="text-blue-500 hover:text-blue-800"
+              >
+                graphite
+              </a>
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Understand and modify the components making up your design with
-              just one click
+              graphite is a fast, simple code review platform designed for engineers who
+              want to write and review smaller pull requests, stay unblocked, and ship
+              faster
             </p>
           </div>
         </div>

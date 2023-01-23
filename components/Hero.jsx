@@ -37,36 +37,27 @@ export const Hero = () => {
             data-aos="zoom-y-out"
             className="text-5xl font-bold leading-tight tracking-tighter text-gray-800 md:text-7xl dark:text-gray-100"
           >
-            Build{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-blue">
-              visually.
+              base case capital
             </span>
             <br />
-            Code{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-teal">
-              faster.
-            </span>
           </h1>
           <p
             data-aos="zoom-y-out"
             data-aos-delay="150"
             className="text-lg text-gray-600 md:text-xl dark:text-gray-400"
           >
-            Vivid makes front-end development effortless with our in-browser
-            visual editor to modify your code.
+            an early-stage venture capital firm supporting the next generation of
+            enterprise software
           </p>
-          <div
-            className="flex flex-col"
-            data-aos="zoom-y-out"
-            data-aos-delay="300"
-          >
+          <div className="flex flex-col" data-aos="zoom-y-out" data-aos-delay="300">
             <form
               className="relative flex flex-row gap-2 md:gap-4"
               onSubmit={handleSubmit}
             >
               <input
                 type="email"
-                placeholder="richard.hendricks@piedpiper.com"
+                placeholder=""
                 aria-label="Your email"
                 name="email"
                 id="hero-waitlist"
@@ -79,47 +70,24 @@ export const Hero = () => {
                 htmlFor="hero-waitlist"
                 className="absolute z-10 text-xs text-gray-600 -top-2 left-4 dark:text-gray-400"
               >
-                Your Email
+                your email
               </label>
               {/* Line beneath label to hide outline */}
               <div className="absolute top-0 w-[4.3rem] h-[2px] bg-gray-100 dark:bg-gray-800 left-3" />
               <button
                 type="submit"
-                className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit"
+                className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit whitespace-nowrap"
               >
-                Waitlist
+                get in touch
               </button>
             </form>
-            <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
-              {emailSubmitted
-                ? "We'll keep you posted!"
-                : "Be the first to experience Vivid."}
-            </p>
           </div>
         </div>
         {/* Image */}
         <div
           data-aos="fade-left"
           className="relative flex flex-col justify-center w-full max-w-2xl overflow-hidden rounded-lg shadow-lg md:rounded-xl"
-        >
-          <Image
-            src={MacBarSrc}
-            className="rounded-t-lg md:rounded-t-xl"
-            alt="Mac window bar"
-          />
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            aria-label="A video showing Vivid's functionality including command palette, style preview, code pane, and mouse resizing"
-            tabIndex={-1}
-          >
-            {/* Need both for Safari compatibility */}
-            <source src="/videos/total.webm" type="video/webm" />
-            <source src="/videos/total.mp4" type="video/mp4" />
-          </video>
-        </div>
+        ></div>
       </div>
     </section>
   );

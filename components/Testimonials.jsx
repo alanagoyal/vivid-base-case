@@ -15,17 +15,10 @@ export const Testimonials = () => {
             className="text-4xl font-bold leading-tight tracking-tighter text-gray-800 md:text-6xl dark:text-gray-100"
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-amber to-neon-red">
-              Loved
+              loved
             </span>{" "}
-            by developers
+            by founders
           </h2>
-          <p
-            data-aos="zoom-y-out"
-            data-aos-delay="150"
-            className="text-lg text-gray-600 md:text-xl dark:text-gray-400"
-          >
-            Styling your web app has never been easier.
-          </p>
         </div>
         {/* Testimonials */}
         <div className="flex flex-col gap-20 md:gap-6 md:flex-row">
@@ -35,54 +28,27 @@ export const Testimonials = () => {
               <Quote />
               <Image
                 className="rounded-full"
-                src="/images/will.jpg"
+                src="/images/benji.jpg"
                 width="96"
                 height="96"
                 alt="Will Gao"
               />
             </div>
             <blockquote className="font-medium">
-              &quot;When I first clicked on a component and its code popped up —
-              magical&quot;
+              “Alana has a reputation for truly providing hands on help with recruiting
+              which is frankly the most valuable thing any investor could do. That's the
+              reason we added her to the round and she's been living up to these
+              expectations!”
             </blockquote>
             <div className="">
-              <cite className="not-italic font-bold">— Will Gao</cite>
+              <cite className="not-italic font-bold">— Benji Encz</cite>
               <div className="text-base text-gray-600 dark:text-gray-400">
-                <span>Technical PM</span>{" "}
+                <span>Founder & CEO</span>{" "}
                 <a
                   className="text-primary-600 dark:text-primary-400 hover:underline"
-                  href="https://www.linkedin.com/in/willgao99/"
+                  href="https://www.ashbyhq.com"
                 >
-                  @Meta
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Testimonial 2 */}
-          <div className="relative flex flex-col items-center flex-1 gap-6 p-12 pt-20 text-lg text-gray-700 border border-gray-300 rounded-lg shadow-xl dark:border-gray-600 bg-gray-50 dark:bg-gray-900 md:text-xl dark:text-gray-300">
-            <div className="absolute mx-auto -top-10">
-              <Quote />
-              <Image
-                className="rounded-full"
-                src="/images/veljko.jpg"
-                width="96"
-                height="96"
-                alt="Veljko Muratovic"
-              />
-            </div>
-            <blockquote className="font-medium">
-              &quot;I&apos;m going to have to make the switch to Chrome. Just to
-              keep using Vivid.&quot;
-            </blockquote>
-            <div className="">
-              <cite className="not-italic font-bold">— Veljko Muratovic</cite>
-              <div className="text-base text-gray-600 dark:text-gray-400">
-                <span>Front End Dev</span>{" "}
-                <a
-                  className="text-primary-600 dark:text-primary-400 hover:underline"
-                  href="https://www.linkedin.com/in/veljko-muratovic/"
-                >
-                  @Freelance
+                  @Ashby
                 </a>
               </div>
             </div>
@@ -93,25 +59,58 @@ export const Testimonials = () => {
               <Quote />
               <Image
                 className="rounded-full"
-                src="/images/tejal.png"
+                src="/images/marie.png"
                 width="96"
                 height="96"
                 alt="Tejal Patwardhan"
               />
             </div>
             <blockquote className="font-medium">
-              &quot;Vivid has changed the game! It&apos;s already saved me hours
-              of development time&quot;
+              "Alana and the base case community feel like family. From the customer
+              introductions that led to our first paying customers, to the founding
+              engineer dinners that connected us with our strongest candidates, to the
+              product feedback that has helped shape our roadmap, she's there where we
+              need it the most."
             </blockquote>
             <div className="">
-              <cite className="not-italic font-bold">— Tejal Patwardhan</cite>
+              <cite className="not-italic font-bold">— Marie Schneegans</cite>
               <div className="text-base text-gray-600 dark:text-gray-400">
-                <span>Founder</span>{" "}
+                <span>Founder & CEO</span>{" "}
                 <a
                   className="text-primary-600 dark:text-primary-400 hover:underline"
-                  href="https://martingalelabs.com/"
+                  href="https://motif.land"
                 >
-                  @Martingale
+                  @Motif
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Testimonial 2 */}
+          <div className="relative flex flex-col items-center flex-1 gap-6 p-12 pt-20 text-lg text-gray-700 border border-gray-300 rounded-lg shadow-xl dark:border-gray-600 bg-gray-50 dark:bg-gray-900 md:text-xl dark:text-gray-300">
+            <div className="absolute mx-auto -top-10">
+              <Quote />
+              <Image
+                className="rounded-full"
+                src="/images/kshitij.jpg"
+                width="96"
+                height="96"
+                alt="Veljko Muratovic"
+              />
+            </div>
+            <blockquote className="font-medium">
+              "Alana has been an incredibly helpful investor and friend to us; her ability
+              to be resourceful and persistent continues to be invaluable. We're extremely
+              lucky to have her as an investor and friend of Orb.""
+            </blockquote>
+            <div className="">
+              <cite className="not-italic font-bold">— Kshitij Grover</cite>
+              <div className="text-base text-gray-600 dark:text-gray-400">
+                <span>Founder & CTO</span>{" "}
+                <a
+                  className="text-primary-600 dark:text-primary-400 hover:underline"
+                  href="https://www.withorb.com"
+                >
+                  @Orb
                 </a>
               </div>
             </div>

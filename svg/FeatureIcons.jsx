@@ -116,12 +116,6 @@ export const ShuffleIcon = () => {
     >
       <title>Shuffle Icon</title>
       <g fill="none" fillRule="evenodd">
-        <rect
-          className="fill-current text-primary-600"
-          width="64"
-          height="64"
-          rx="32"
-        />
         <g strokeLinecap="square" strokeWidth="2">
           <path
             className="stroke-current text-gray-50"
@@ -146,12 +140,6 @@ export const SignalIcon = () => {
     >
       <title>Signal Icon</title>
       <g fill="none" fillRule="evenodd">
-        <rect
-          className="fill-current text-primary-600"
-          width="64"
-          height="64"
-          rx="32"
-        />
         <g strokeWidth="2" transform="translate(19.429 20.571)">
           <circle
             className="stroke-current text-gray-50"

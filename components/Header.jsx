@@ -32,11 +32,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
   const Logo = () => (
     <Link href="/">
       <div className="flex flex-row items-center gap-1">
-        <Image src="/images/logo.png" alt="Vivid logo" height="40" width="40" />
         <div className="text-3xl font-bold">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-blue">
-            Vivid
-          </span>
         </div>
       </div>
     </Link>
@@ -59,21 +55,8 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
           </li>
         ) : null}
         <li>
-          <Link
-            href="/"
-            className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
-          >
-            Docs
-          </Link>
         </li>
         <li className={`transition ${!nextSection && "hidden"}`}>
-          <button
-            type="button"
-            onClick={goToEmail}
-            className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit"
-          >
-            Waitlist
-          </button>
         </li>
       </ul>
     </nav>
