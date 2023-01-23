@@ -31,9 +31,9 @@ export const Features = () => {
               className="text-lg md:text-xl text-gray-600 dark:text-gray-400"
             >
               base case capital is an early-stage venture firm by builders, for builders.
-              we help technical founders nail their "base case" — recruiting their first
+              we help technical founders nail their &quot;base case&quot; — recruiting their first
               engineers, securing their first customers, and raising their first
-              institutional round — and "recurse" onwards.
+              institutional round — and &quot;recurse&quot; onwards.
             </p>
           </div>
           <div className="w-5/6 p-4 md:w-1/2 md:p-12 bg-gradient-to-br rounded-xl from-neon-pink to-neon-blue md:-translate-x-14">

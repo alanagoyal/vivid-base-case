@@ -35,10 +35,10 @@ export const Testimonials = () => {
               />
             </div>
             <blockquote className="font-medium">
-              “Alana has a reputation for truly providing hands on help with recruiting
-              which is frankly the most valuable thing any investor could do. That's the
+            &quot;Alana has a reputation for truly providing hands on help with recruiting
+              which is frankly the most valuable thing any investor could do. That&apos;s the
               reason we added her to the round and she's been living up to these
-              expectations!”
+              expectations!&quot
             </blockquote>
             <div className="">
               <cite className="not-italic font-bold">— Benji Encz</cite>
@@ -66,11 +66,11 @@ export const Testimonials = () => {
               />
             </div>
             <blockquote className="font-medium">
-              "Alana and the base case community feel like family. From the customer
+            &quot;Alana and the base case community feel like family. From the customer
               introductions that led to our first paying customers, to the founding
               engineer dinners that connected us with our strongest candidates, to the
-              product feedback that has helped shape our roadmap, she's there where we
-              need it the most."
+              product feedback that has helped shape our roadmap, she&apos;s there where we
+              need it the most.&quot;
             </blockquote>
             <div className="">
               <cite className="not-italic font-bold">— Marie Schneegans</cite>
@@ -98,9 +98,9 @@ export const Testimonials = () => {
               />
             </div>
             <blockquote className="font-medium">
-              "Alana has been an incredibly helpful investor and friend to us; her ability
+            &quot;Alana has been an incredibly helpful investor and friend to us; her ability
               to be resourceful and persistent continues to be invaluable. We're extremely
-              lucky to have her as an investor and friend of Orb.""
+              lucky to have her as an investor and friend of Orb.&quot;
             </blockquote>
             <div className="">
               <cite className="not-italic font-bold">— Kshitij Grover</cite>
