@@ -13,9 +13,9 @@ if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
   import("vivid-studio/style.css");
 }
 
-const siteTitle = "Vivid — Build visually. Code faster.";
+const siteTitle = "base case capital";
 const siteDescription =
-  "Make CSS styling a breeze with Vivid's in-browser visual editor that automatically updates your code.";
+  "an early-stage venture capital firm supporting the next generation of enterprise software";
 
 const App = ({ Component, pageProps }) => {
   const { isDarkMode, toggle: toggleDarkMode } = useDarkMode();
@@ -52,7 +52,7 @@ const App = ({ Component, pageProps }) => {
         <link rel="icon" href="/icons/favicon.ico" />
         <meta
           property="og:image"
-          content="https://vivid.lol/images/landing-page.png"
+          content="https://base-case-images.s3.us-west-1.amazonaws.com/b.png"
         />
       </Head>
       <NextSeo
