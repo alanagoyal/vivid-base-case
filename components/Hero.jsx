@@ -53,30 +53,15 @@ export const Hero = () => {
           <div className="flex flex-col" data-aos="zoom-y-out" data-aos-delay="300">
             <form
               className="relative flex flex-row gap-2 md:gap-4"
-              onSubmit={handleSubmit}
+              onSubmit={() => {
+                window.location.href = "mailto:hi@basecase.vc";
+              }}
             >
-              <input
-                type="email"
-                placeholder=""
-                aria-label="Your email"
-                name="email"
-                id="hero-waitlist"
-                onChange={(event) => setEmail(event.target.value)}
-                value={email}
-                required
-                className="w-full px-4 py-3 text-gray-800 placeholder-gray-400 bg-gray-100 border rounded-lg dark:placeholder-gray-600 dark:bg-gray-800 first-line:border-gray-200 dark:border-gray-600 dark:text-gray-100"
-              />
-              <label
-                htmlFor="hero-waitlist"
-                className="absolute z-10 text-xs text-gray-600 -top-2 left-4 dark:text-gray-400"
-              >
-                your email
-              </label>
               {/* Line beneath label to hide outline */}
-              <div className="absolute top-0 w-[4.3rem] h-[2px] bg-gray-100 dark:bg-gray-800 left-3" />
               <button
                 type="submit"
-                className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit whitespace-nowrap"
+                href="mailto:alana@basecase.vc"
+                className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 get in touch
               </button>
