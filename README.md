@@ -4,7 +4,7 @@ This an alternative landing page for Base Case Capital, modeled after the [Vivid
 
 ## Preview
 
-![demo](https://base-case-images.s3.us-west-1.amazonaws.com/demo.gif)
+![demo](https://github.com/alanagoyal/vivid-base-case/blob/main/public/videos/website-demo.gif)
 
 ## Getting Started
 
